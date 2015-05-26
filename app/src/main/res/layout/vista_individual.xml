@@ -1,0 +1,79 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtid"
+        android:text="@string/id"
+        android:textColor="#ff0963ff"
+        android:textStyle="bold"
+        android:paddingTop="5dp"
+        android:paddingLeft="5dp"
+        android:paddingBottom="3dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtnombre"
+        android:text="@string/nombre"
+        android:textColor="#ff0963ff"
+        android:textStyle="italic"
+        android:paddingLeft="5dp"
+        android:paddingBottom="3dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtapllidop"
+        android:text="@string/apellidop"
+        android:textColor="#ff0963ff"
+        android:textStyle="italic"
+        android:paddingLeft="5dp"
+        android:paddingBottom="3dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtapellidom"
+        android:text="@string/apellidom"
+        android:textColor="#ff0963ff"
+        android:textStyle="italic"
+        android:paddingLeft="5dp"
+        android:paddingBottom="3dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtemail"
+        android:text="@string/email"
+        android:textColor="#ff0963ff"
+        android:textStyle="italic"
+        android:paddingLeft="5dp"
+        android:paddingBottom="3dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txttelefono"
+        android:text="@string/telefono"
+        android:textColor="#ff0963ff"
+        android:textStyle="italic"
+        android:paddingLeft="5dp"
+        android:paddingBottom="3dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtedad"
+        android:text="@string/edad"
+        android:textColor="#ff0963ff"
+        android:textStyle="italic"
+        android:paddingLeft="5dp"
+        android:paddingBottom="3dp"/>
+
+
+</LinearLayout>
